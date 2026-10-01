@@ -25,13 +25,21 @@ These websites let you write C++, run it, and fix errors directly in the browser
 
 ## Step-by-step guide for beginners
 
-### 1. Open the task list
+### 1. Start with GitHub learning basics
+
+If you are new to GitHub, begin here first:
+
+- https://learn.github.com/
+
+This site provides beginner-friendly lessons and tutorials for students who are learning GitHub for the first time.
+
+### 2. Open the task list
 
 Read [TASKS.md](TASKS.md) and choose one task.
 
 Do not try to do everything. Pick only one small task.
 
-### 2. Open an online C++ editor
+### 3. Open an online C++ editor
 
 Open either:
 
@@ -40,7 +48,7 @@ Open either:
 
 Copy the starter code or write your own code there.
 
-### 3. Write and test your program
+### 4. Write and test your program
 
 Type your C++ code in the browser.
 
@@ -50,21 +58,17 @@ If you see errors, fix them and run again.
 
 This is normal. Beginners make mistakes all the time.
 
-### 4. When your code works
+### 5. When your code works
 
 Once your program runs correctly, save your final code in your own GitHub copy.
 
 ## GitHub workflow for beginners
 
-If you are new to GitHub, follow the official GitHub learning resources:
+If you are new to GitHub, the recommended place to start is:
 
-- GitHub Quickstart: https://docs.github.com/en/get-started/writing-on-github
-- GitHub Skills training: https://learn.github.com/skills
-- Beginner GitHub tutorial repo: @skills/introduction-to-github
+- https://learn.github.com/
 
-These resources are designed for beginners and are much easier to follow than using Git commands directly.
-
-This is the easiest way to submit your work:
+Then use this simple workflow:
 
 1. **Fork** this repository (click the Fork button)
    - This makes your own copy of the project
@@ -76,8 +80,6 @@ This is the easiest way to submit your work:
 6. **Open a Pull Request** to send your work back to the class repository
 
 You do not need to use Git commands in a terminal. You can do the whole process in the browser.
-
-The official GitHub documentation and the GitHub Skills tutorials have screenshots and clear steps. Use them if you get stuck.
 
 ## What to submit
 
@@ -105,9 +107,8 @@ The goal is understanding, not perfection.
 
 If you are stuck:
 
+- Start with https://learn.github.com/
 - Read the example in [TASKS.md](TASKS.md)
-- Check the [GitHub Quickstart guide](https://docs.github.com/en/get-started/writing-on-github)
-- Explore the GitHub Skills tutorials at https://learn.github.com/skills
 - Ask your instructor
 - Start with the easiest task
 
