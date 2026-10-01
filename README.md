@@ -56,9 +56,13 @@ Once your program runs correctly, save your final code in your own GitHub copy.
 
 ## GitHub workflow for beginners
 
-If you are new to GitHub, follow the official GitHub guide:
+If you are new to GitHub, follow the official GitHub learning resources:
 
-**[GitHub Quickstart for writing on GitHub](https://docs.github.com/en/get-started/writing-on-github)**
+- GitHub Quickstart: https://docs.github.com/en/get-started/writing-on-github
+- GitHub Skills training: https://learn.github.com/skills
+- Beginner GitHub tutorial repo: @skills/introduction-to-github
+
+These resources are designed for beginners and are much easier to follow than using Git commands directly.
 
 This is the easiest way to submit your work:
 
@@ -73,7 +77,7 @@ This is the easiest way to submit your work:
 
 You do not need to use Git commands in a terminal. You can do the whole process in the browser.
 
-The official GitHub documentation has screenshots and clear steps. Use it if you get stuck.
+The official GitHub documentation and the GitHub Skills tutorials have screenshots and clear steps. Use them if you get stuck.
 
 ## What to submit
 
@@ -103,6 +107,7 @@ If you are stuck:
 
 - Read the example in [TASKS.md](TASKS.md)
 - Check the [GitHub Quickstart guide](https://docs.github.com/en/get-started/writing-on-github)
+- Explore the GitHub Skills tutorials at https://learn.github.com/skills
 - Ask your instructor
 - Start with the easiest task
 
