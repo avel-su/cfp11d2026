@@ -1,20 +1,19 @@
+# CFP11 2026 — C++ Engineering Project
+This is the semester-end project for CFP11: Computer Fundamentals and Programming.
+
+Students are expected to apply the C++ skills they have learned throughout the course to solve a meaningful engineering problem. This is not a small beginner exercise and not a large software product. It is a focused engineering project that should be complete, correct, and explainable.
+
+The goal is to design and implement a working engineering solution in C++, use GitHub as the submission workflow, and explain the project clearly.
+
 ## Getting started
 
-### 1. Learn GitHub basics
+### Learn GitHub basics
 
 Start here first:
 
 - https://learn.github.com/
 
 This provides foundational knowledge for submitting code and working on GitHub.
-
-# CFP11 2026 — C++ Engineering Project
-
-This is the semester-end project for CFP11: Computer Fundamentals and Programming.
-
-Students are expected to apply the C++ skills they have learned throughout the course to solve a meaningful engineering problem. This is not a small beginner exercise and not a large software product. It is a focused engineering project that should be complete, correct, and explainable.
-
-The goal is to design and implement a working engineering solution in C++, use GitHub as the submission workflow, and explain the project clearly.
 
 ## Project selection
 
