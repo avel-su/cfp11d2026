@@ -1,8 +1,8 @@
 # CFP11d2026 — C++ Final Project
 
-This repository contains the final project assignment for CFP11 (Programming Fundamentals II) using C++.
+This repository contains the final project assignment for CFP11 using C++.
 
-This is a semester-end capstone project for engineering students who have completed introductory C++ coursework. Students should be comfortable with:
+This is a semester-end project for engineering students who have completed introductory C++ coursework. Students should be comfortable with:
 
 - Variables, data types, and operators
 - Control flow (if/else, loops)
