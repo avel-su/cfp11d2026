@@ -1,10 +1,15 @@
-# CFP11d2026
+# CFP11d2026 — C++ Final Project
 
-This repository is for beginner C++ practice for engineering students.
+This repository contains the final project assignment for CFP11 (Programming Fundamentals II) using C++.
 
-You do not need to install anything on your computer.
+This is a semester-end capstone project for engineering students who have completed introductory C++ coursework. Students should be comfortable with:
 
-This course is designed for students who are not majoring in computer science and may be new to programming and GitHub. The goal is simple: learn basic C++ by writing small programs in a browser.
+- Variables, data types, and operators
+- Control flow (if/else, loops)
+- Functions and parameter passing
+- Arrays and basic data structures
+- File I/O
+- Debugging and testing
 
 ## What you need
 
@@ -12,115 +17,123 @@ This course is designed for students who are not majoring in computer science an
 - A GitHub account
 - Internet access
 
-That is all. No local C++ compiler. No Git install. No setup on your laptop.
+You can work entirely in the browser using online C++ environments—no local setup required.
 
-## Use these online C++ tools
+## Online C++ development environments
 
 Choose one:
 
 - cpp.sh: https://cpp.sh/
-- OneCompiler C++: https://onecompiler.com/cpp
+- OneCompiler: https://onecompiler.com/cpp
+- Replit: https://replit.com/languages/cpp
 
-These websites let you write C++, run it, and fix errors directly in the browser.
+These platforms let you write, compile, test, and debug C++ code in the browser.
 
-## Step-by-step guide for beginners
+## Project overview
 
-### 1. Start with GitHub learning basics
+For this final project, you will:
 
-If you are new to GitHub, begin here first:
+1. Choose a project topic from [PROJECTS.md](PROJECTS.md)
+2. Design your solution before coding
+3. Implement your solution in C++
+4. Test your program with multiple inputs and edge cases
+5. Submit your work through GitHub
 
-- https://learn.github.com/
+## Getting started
 
-This site provides beginner-friendly lessons and tutorials for students who are learning GitHub for the first time.
+### 1. Review GitHub basics
 
-### 2. Open the task list
-
-Read [TASKS.md](TASKS.md) and choose one task.
-
-Do not try to do everything. Pick only one small task.
-
-### 3. Open an online C++ editor
-
-Open either:
-
-- https://cpp.sh/
-- https://onecompiler.com/cpp
-
-Copy the starter code or write your own code there.
-
-### 4. Write and test your program
-
-Type your C++ code in the browser.
-
-Then click Run or Compile.
-
-If you see errors, fix them and run again.
-
-This is normal. Beginners make mistakes all the time.
-
-### 5. When your code works
-
-Once your program runs correctly, save your final code in your own GitHub copy.
-
-## GitHub workflow for beginners
-
-If you are new to GitHub, the recommended place to start is:
+Start here first:
 
 - https://learn.github.com/
 
-Then use this simple workflow:
+This provides foundational knowledge for submitting code and working on GitHub.
 
-1. **Fork** this repository (click the Fork button)
-   - This makes your own copy of the project
-2. **Create a file** in your copy by clicking "Add file"
-   - Name it something like `solution-T1.cpp` or `even-odd.cpp`
-3. **Paste your working code** into the file
-4. **Write a commit message** like: `Add even or odd program`
-5. **Commit changes**
-6. **Open a Pull Request** to send your work back to the class repository
+### 2. Choose your project
 
-You do not need to use Git commands in a terminal. You can do the whole process in the browser.
+Read [PROJECTS.md](PROJECTS.md) and select one project.
 
-## What to submit
+If your instructor has assigned a specific project, work on that instead.
 
-Submit only one task at a time.
+### 3. Plan your approach
 
-Keep your solution simple and clear.
+Before coding, think about:
 
-Do not add extra libraries or complicated code.
+- project requirements
+- needed data structures
+- functions and modules
+- input validation and error handling
+- testing strategy
 
-## Recommended mindset
+### 4. Develop and test in the browser
 
-This is not a computer science major course.
+Use cpp.sh, OneCompiler, or Replit to write, compile, and test your C++ code.
 
-You are learning the basics:
+### 5. Submit your work
 
-- input and output
-- variables
-- conditions
-- loops
-- simple functions
+Once your project is complete and tested:
 
-The goal is understanding, not perfection.
+1. Fork this repository
+2. Create a project folder or file with a descriptive name
+3. Add your source code and supporting documentation
+4. Commit with a clear message
+5. Open a Pull Request to the original repository
 
-## Need help?
+## Pull Request requirements
 
-If you are stuck:
+Your Pull Request should include:
 
-- Start with https://learn.github.com/
-- Read the example in [TASKS.md](TASKS.md)
-- Ask your instructor
-- Start with the easiest task
+- project description
+- list of features implemented
+- programming approach and design decisions
+- how to compile and run the code
+- testing summary and edge cases checked
+
+## Code quality expectations
+
+For a final project:
+
+- write readable, structured code
+- use meaningful variable and function names
+- comment complex logic
+- organize code into functions
+- validate input and handle edge cases
+- test thoroughly before submitting
+
+## What NOT to do
+
+Do not:
+
+- copy code from other students or online sources without understanding it
+- submit code that does not compile or run
+- leave incomplete or debugging code in the final submission
+- ignore edge cases or input validation
+
+## Checklist before submitting
+
+- [ ] My program compiles without errors
+- [ ] My program runs correctly with test inputs
+- [ ] I tested edge cases and error conditions
+- [ ] My code is readable and well-organized
+- [ ] My pull request explains what I built and how it works
+- [ ] I documented how to compile and run my code
+- [ ] I can explain every part of my code
 
 ## Files in this repository
 
-- [TASKS.md](TASKS.md): list of beginner C++ tasks
-- [CONTRIBUTING.md](CONTRIBUTING.md): extra guidance for the classroom workflow
+- [PROJECTS.md](PROJECTS.md): available final project topics
+- [CONTRIBUTING.md](CONTRIBUTING.md): GitHub workflow and submission guidelines
 
-## Final reminder
+## Resources
 
-You can finish this course entirely in the browser.
+- GitHub Learning: https://learn.github.com/
+- C++ reference: https://cplusplus.com/
+- Ask your instructor for help
 
-No compiler install. No local setup. No need to know advanced GitHub commands.
+## Important notes
 
-Just open the browser, write code, test it, and submit your work.
+- This is individual work.
+- Your instructor may ask you to explain your code.
+- Late submissions follow the course syllabus.
+
+Good luck with your final project!
