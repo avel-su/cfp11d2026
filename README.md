@@ -1,139 +1,119 @@
-# CFP11 2026 — C++ Final Project
+# CFP11 2026 — C++ GitHub Project
 
-This repository contains the final project assignment for CFP11 using C++.
+This is the final practical project for **CFP11: Computer Fundamentals and Programming**.
 
-This is a semester-end project for engineering students who have completed introductory C++ coursework. Students should be comfortable with:
+The goal is not to build a large software application. Instead, students should make **one small but meaningful C++ improvement**, test it, submit it through GitHub, and explain what they made.
 
-- Variables, data types, and operators
-- Control flow (if/else, loops)
-- Functions and parameter passing
-- Arrays and basic data structures
-- File I/O
+This project is intended to show that you can:
+
+- read and understand existing code
+- apply basic C++ concepts
+- compile and test a program
+- use GitHub properly
+- document and explain your work
+
+## What you will practice
+
+- Variables and data types
+- Input and output
+- Conditions
+- Loops
+- Basic functions
 - Debugging and testing
+- GitHub repositories
+- Branches and commits
+- Pull Requests
+- Explaining your own code
 
-## What you need
+## Your task
 
-- A web browser
-- A GitHub account
-- Internet access
+1. Fork this repository to your own GitHub account.
+2. Clone your fork to your computer.
+3. Create a branch for your work.
+4. Open `src/main.cpp`.
+5. Choose **one** task from [TASKS.md](TASKS.md), unless your instructor assigns a specific task.
+6. Make the change.
+7. Compile and test your program.
+8. Commit your change.
+9. Push your branch to GitHub.
+10. Open a Pull Request to this repository.
+11. Create a short video explaining what you made.
+12. Post the video to the class Google Chat space.
 
-You can work entirely in the browser using online C++ environments—no local setup required.
+## Project scope
 
-## Online C++ development environments
+This is a **semester-end final exercise**, but it should still remain small and realistic.
 
-Choose one:
+Your work should be:
 
-- cpp.sh: https://cpp.sh/
-- OneCompiler: https://onecompiler.com/cpp
-- Replit: https://replit.com/languages/cpp
+- small enough to finish on time
+- meaningful enough to show a programming concept
+- simple enough for you to explain clearly
+- complete and working when submitted
 
-These platforms let you write, compile, test, and debug C++ code in the browser.
+You are not expected to build a large project with multiple files, advanced libraries, or complicated data structures.
 
-## Project overview
+Do not copy another student's solution.
 
-For this final project, you will:
+## Keep your project simple
 
-1. Choose a project topic from [PROJECTS.md](PROJECTS.md)
-2. Design your solution before coding
-3. Implement your solution in C++
-4. Test your program with multiple inputs and edge cases
-5. Submit your work through GitHub
+Your change should be focused and understandable.
 
-## Getting started
+A good final project is one where:
 
-### 1. Review GitHub basics
+- the code is readable
+- the logic is easy to explain
+- the result works correctly
+- you can discuss what you changed without notes
 
-Start here first:
+## Video demonstration
 
-- https://learn.github.com/
+Create a **maximum 3-minute video** demonstrating your project.
 
-This provides foundational knowledge for submitting code and working on GitHub.
+Post the video to the class Google Chat space.
 
-### 2. Choose your project
+Your video should briefly cover:
 
-Read [PROJECTS.md](PROJECTS.md) and select one project.
+1. **What you changed**
+2. **What the program does**
+3. **How you run it**
+4. **Why it works**
+5. **What you learned**
 
-If your instructor has assigned a specific project, work on that instead.
+The video should be short, clear, and focused on the code you created.
 
-### 3. Plan your approach
+## Pull Request checklist
 
-Before coding, think about:
-
-- project requirements
-- needed data structures
-- functions and modules
-- input validation and error handling
-- testing strategy
-
-### 4. Develop and test in the browser
-
-Use cpp.sh, OneCompiler, or Replit to write, compile, and test your C++ code.
-
-### 5. Submit your work
-
-Once your project is complete and tested:
-
-1. Fork this repository
-2. Create a project folder or file with a descriptive name
-3. Add your source code and supporting documentation
-4. Commit with a clear message
-5. Open a Pull Request to the original repository
-
-## Pull Request requirements
-
-Your Pull Request should include:
-
-- project description
-- list of features implemented
-- programming approach and design decisions
-- how to compile and run the code
-- testing summary and edge cases checked
-
-## Code quality expectations
-
-For a final project:
-
-- write readable, structured code
-- use meaningful variable and function names
-- comment complex logic
-- organize code into functions
-- validate input and handle edge cases
-- test thoroughly before submitting
-
-## What NOT to do
-
-Do not:
-
-- copy code from other students or online sources without understanding it
-- submit code that does not compile or run
-- leave incomplete or debugging code in the final submission
-- ignore edge cases or input validation
-
-## Checklist before submitting
+Before submitting, make sure:
 
 - [ ] My program compiles without errors
-- [ ] My program runs correctly with test inputs
-- [ ] I tested edge cases and error conditions
-- [ ] My code is readable and well-organized
-- [ ] My pull request explains what I built and how it works
-- [ ] I documented how to compile and run my code
-- [ ] I can explain every part of my code
+- [ ] I tested my change with different inputs
+- [ ] My change is small and focused
+- [ ] I can explain the code I wrote
+- [ ] My commit message is clear
+- [ ] My pull request explains what I changed
+- [ ] My pull request explains how I tested it
+- [ ] I posted my short demo video to the class Google Chat space
+
+## Get help
+
+- Read [CONTRIBUTING.md](CONTRIBUTING.md) for the GitHub workflow
+- Read [TASKS.md](TASKS.md) for task ideas
+- Ask your instructor if you get stuck
+- Start with a simpler task if you are unsure
 
 ## Files in this repository
 
-- [PROJECTS.md](PROJECTS.md): available final project topics
-- [CONTRIBUTING.md](CONTRIBUTING.md): GitHub workflow and submission guidelines
+- [TASKS.md](TASKS.md): list of small programming tasks to choose from
+- [CONTRIBUTING.md](CONTRIBUTING.md): detailed GitHub workflow steps
+- `src/main.cpp`: the starter program you will modify
 
-## Resources
+## Rules
 
-- GitHub Learning: https://learn.github.com/
-- C++ reference: https://cplusplus.com/
-- Ask your instructor for help
+- Choose one task
+- Keep your code simple and readable
+- Test before submitting
+- Be able to explain your code
+- Submit a working result
 
-## Important notes
-
-- This is individual work.
-- Your instructor may ask you to explain your code.
-- Late submissions follow the course syllabus.
-
-Good luck with your final project!
+Good luck!
