@@ -4,13 +4,15 @@ Choose **one** engineering project for your final C++ submission.
 
 Each project is designed to solve a real engineering problem and should integrate multiple C++ concepts you've learned:
 
+- variables and data types
 - functions and modularity
-- data structures (arrays, structs)
-- file I/O
+- input and output
+- conditions and loops
+- arrays where appropriate
+- engineering calculations
 - input validation and error handling
-- algorithm design
 
-You may also propose your own engineering problem with instructor approval.
+You may also propose your own engineering problem. No instructor approval is required.
 
 ---
 
@@ -28,16 +30,15 @@ Build a program to calculate stresses and deflection in a simply supported beam.
 - Calculate maximum bending stress and shear stress
 - Calculate deflection at midpoint
 - Validate that stress is within material limits
-- Generate a report with results
-- Save calculations to file for later review
+- Display a report with results
 
 **Concepts:**
 
-- structs for beam and load data
+- variables for beam and load data
 - formulas for structural analysis
-- file I/O
 - input validation
 - engineering calculations
+- formatted output
 
 ---
 
@@ -55,16 +56,14 @@ Create a program to analyze DC circuits with resistors.
 - Calculate current through each branch
 - Calculate voltage drops and power dissipation
 - Check if resistor power ratings are exceeded
-- Generate circuit analysis report
-- Save circuit data for later use
+- Display circuit analysis report
 
 **Concepts:**
 
-- data structures for circuit components
-- recursive or iterative calculations
-- file I/O
-- validation of electrical properties
+- variables for circuit components
+- conditional logic for circuit analysis
 - engineering formulas
+- input validation
 
 ---
 
@@ -84,14 +83,12 @@ Build a fluid mechanics calculator for pipe flow analysis.
 - Calculate pressure drop using Darcy-Weisbach equation
 - Calculate flow velocity and discharge
 - Report if flow is laminar or turbulent
-- Save calculations to file
 
 **Concepts:**
 
-- structs for pipe and fluid data
+- variables for pipe and fluid data
 - conditional logic for flow regimes
 - engineering formulas and iteration
-- file I/O
 - input validation
 
 ---
@@ -110,17 +107,16 @@ Create a program to estimate energy consumption and costs for heating/cooling.
 - Calculate heating and cooling loads
 - Estimate annual energy consumption
 - Calculate monthly and annual utility costs
-- Generate energy report
+- Display energy report
 - Compare efficiency with different system settings
-- Save estimates to file
 
 **Concepts:**
 
-- structs for building and climate data
+- variables for building and climate data
 - heat transfer calculations
-- file I/O
 - conditional logic for seasons
 - cost and efficiency analysis
+- loops for monthly calculations
 
 ---
 
@@ -139,16 +135,14 @@ Build a tool for designing concrete mixes by weight and volume proportions.
 - Calculate expected compressive strength (empirical formula)
 - Calculate material costs
 - Adjust mix to meet strength or cost requirements
-- Generate mix design report
-- Save design to file for reference on site
+- Display mix design report
 
 **Concepts:**
 
-- structs for concrete properties
+- variables for concrete properties
 - engineering formulas
 - optimization and adjustment logic
-- file I/O
-- validation of material properties
+- input validation
 
 ---
 
@@ -165,18 +159,17 @@ Create a program to optimize traffic signal timing for an intersection.
 - Calculate cycle length
 - Distribute green time among phases
 - Calculate average delay and queue length
-- Generate timing report
+- Display timing report
 - Compare different signal plans
-- Save recommended timings to file
 - Account for peak and off-peak periods
 
 **Concepts:**
 
-- data structures for traffic flow
+- variables for traffic flow
 - queuing theory calculations
 - optimization logic
 - conditional analysis
-- file I/O and reporting
+- loops and arrays for multiple phases
 
 ---
 
@@ -194,16 +187,14 @@ Build a program to verify if a steel member meets design requirements.
 - Check against allowable stresses (AISC or local code)
 - Calculate capacity utilization ratio
 - Assess buckling (slenderness ratio)
-- Generate pass/fail report
+- Display pass/fail report
 - Suggest larger section if needed
-- Save member check calculations
 
 **Concepts:**
 
-- structs for member and load data
+- variables for member and load data
 - conditional logic for pass/fail
 - engineering design formulas
-- file I/O
 - compliance checking
 
 ---
@@ -222,16 +213,13 @@ Create a program for designing and analyzing water storage tanks.
 - Calculate wall stress from internal pressure
 - Estimate material and construction cost
 - Calculate minimum wall thickness needed
-- Design overflow and drain systems
-- Generate tank design report
-- Save design parameters to file
+- Display tank design report
 
 **Concepts:**
 
-- structs for tank properties
+- variables for tank properties
 - geometric and hydrostatic calculations
 - material strength formulas
-- file I/O
 - design validation
 
 ---
@@ -251,16 +239,14 @@ Build a tool to select appropriately-sized motors and calculate efficiency.
 - Calculate efficiency at partial loads
 - Estimate annual energy cost
 - Compare cost of motors at different efficiencies
-- Generate motor selection report
-- Save selection justification to file
+- Display motor selection report
 
 **Concepts:**
 
-- arrays or structs for motor catalog data
+- arrays or variables for motor catalog data
 - conditional logic for motor selection
 - efficiency and cost calculations
-- file I/O
-- optimization
+- loops for comparisons
 
 ---
 
@@ -279,31 +265,29 @@ Create a program to estimate battery state-of-charge and lifespan.
 - Track charging/discharging history
 - Alert when battery needs replacement
 - Calculate replacement cost
-- Generate battery health report
-- Save history to file
+- Display battery health report
 
 **Concepts:**
 
-- structs for battery data
+- variables for battery data
 - charge calculation algorithms
 - lifespan estimation formulas
-- file I/O for history tracking
 - conditional alerts and warnings
+- loops for cycle tracking
 
 ---
 
 ## P11 — Propose Your Own Project
 
-**Option:** If you have an engineering problem or calculation tool in mind, you may propose your own project.
+**Option:** If you have an engineering problem or calculation tool in mind, you may develop your own project.
 
-**Requirements for approval:**
+**Requirements:**
 
 - The project should solve a real engineering problem
 - It should require at least 3-4 functions
-- It should involve file I/O (save/load data)
 - It should include input validation
 - It should be completable in one semester
-- Get your instructor's written approval before starting
+- No instructor approval is required
 
 **Examples of student-proposed projects:**
 
@@ -313,13 +297,6 @@ Create a program to estimate battery state-of-charge and lifespan.
 - Wind turbine power estimator
 - Boiler efficiency and fuel cost calculator
 - Bridge load rating calculator
-
-Submit your project proposal to your instructor with:
-
-- Problem description
-- Required inputs and outputs
-- Key calculations or algorithms
-- Why it's relevant to your engineering field
 
 ---
 
@@ -353,18 +330,11 @@ Submit your project proposal to your instructor with:
 - Include units in output (meters, kN, MPa, etc.)
 - Generate formatted reports
 
-### 5. Data persistence
-
-- Use file I/O to save and load project data
-- Make data human-readable or properly formatted
-- Ensure calculations can be verified later
-
-### 6. Error handling
+### 5. Error handling
 
 - Validate all user input
 - Check for physically impossible values
 - Provide meaningful error messages
-- Handle file I/O errors gracefully
 
 ---
 
@@ -374,7 +344,6 @@ Submit your project proposal to your instructor with:
 - [ ] Program runs and produces correct output
 - [ ] Calculations verified against reference values
 - [ ] Code is organized into functions
-- [ ] File I/O is working correctly
 - [ ] Pull request includes clear description
 - [ ] Documentation explains engineering problem and approach
 - [ ] Instructions for compiling and running are provided

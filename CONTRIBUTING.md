@@ -1,6 +1,6 @@
 # Contributing to CFP11 2026 — C++ Engineering Project
 
-This repository is used for the semester-end **C++ engineering project** for CFP11: Computer Fundamentals and Programming.
+This repository is used for the semester-end C++ engineering project for CFP11: Computer Fundamentals and Programming.
 
 The goal is to develop a complete engineering program in C++ and use proper software-development workflow with GitHub.
 
@@ -43,7 +43,7 @@ Understand:
 
 Before coding, sketch out:
 
-- What data will you need? (consider structs or arrays)
+- What data will you need? (variables and arrays)
 - What functions will you need?
 - What does the main flow look like?
 - Where do you need validation?
@@ -111,8 +111,8 @@ git commit -m "Add input validation for beam properties"
 Good commit messages:
 
 - "Add structural analysis calculation"
-- "Implement file I/O for saving results"
-- "Add input validation"
+- "Implement input validation"
+- "Add engineering calculations for load analysis"
 - "Test circuit analysis with realistic values"
 
 Poor commit messages:
@@ -213,7 +213,6 @@ if (beamLength <= 0) {
 
 Handle errors gracefully:
 
-- Check file I/O success
 - Provide meaningful error messages
 - Use sensible defaults when appropriate
 - Avoid crashing on invalid input
@@ -229,14 +228,6 @@ Test your program with:
 
 Document your testing in the Pull Request description.
 
-### File I/O
-
-If your project requires file I/O:
-
-- Save and load data in a human-readable format
-- Include appropriate file error handling
-- Ensure results can be verified later
-
 ## Pull Request checklist
 
 Before submitting your Pull Request:
@@ -247,7 +238,7 @@ Before submitting your Pull Request:
 - [ ] Boundary and invalid cases have been tested
 - [ ] Important calculations have been verified
 - [ ] Functions are used appropriately
-- [ ] Code is readable and well-organized
+- [ ] Code is readable and well organized
 - [ ] Engineering formulas and assumptions are documented
 - [ ] Input validation is implemented
 - [ ] Error messages are clear and helpful
@@ -269,7 +260,6 @@ Do not add:
 
 - external libraries (unless instructor approves)
 - graphics or complex visualization
-- databases
 - web frameworks
 - unnecessary complexity
 

@@ -1,13 +1,8 @@
 # CFP11 2026 — C++ Engineering Project
-This is the semester-end project for CFP11: Computer Fundamentals and Programming.
-
-Students are expected to apply the C++ skills they have learned throughout the course to solve a meaningful engineering problem. This is not a small beginner exercise and not a large software product. It is a focused engineering project that should be complete, correct, and explainable.
-
-The goal is to design and implement a working engineering solution in C++, use GitHub as the submission workflow, and explain the project clearly.
 
 ## Getting started
 
-### Learn GitHub basics
+### 1. Learn GitHub basics
 
 Start here first:
 
@@ -15,124 +10,130 @@ Start here first:
 
 This provides foundational knowledge for submitting code and working on GitHub.
 
-## Project selection
+### 2. Choose a project
 
-Read [PROJECTS.md](PROJECTS.md) and choose one of the available engineering projects.
+Read [PROJECTS.md](PROJECTS.md) and select one engineering project, or propose your own qualifying project.
 
-Students may also develop their own qualifying engineering project under P11.
+No instructor approval is required for a proposed project under P11.
 
-No instructor approval is required for a proposed project.
+### 3. Develop your C++ program
 
-## Project expectations
+This is a semester-end engineering project. Your program should:
 
-This is a semester-end engineering project, not a small GitHub exercise.
+- solve a real engineering problem from [PROJECTS.md](PROJECTS.md)
+- use appropriate C++ concepts, including:
+  - variables and data types
+  - input and output
+  - conditions and loops
+  - functions and modular structure
+  - arrays where appropriate
+  - engineering calculations
+  - input validation and error handling
+  - formatted results and reports
+  - testing and verification
 
-Students should apply the C++ concepts appropriate to their selected engineering problem, such as:
+You are not expected to use every concept in every project. Use the concepts appropriate to your chosen engineering problem.
 
-- variables and data types
-- input and output
-- conditions
-- loops
-- functions and modular structure
-- arrays and/or structs where appropriate
-- engineering calculations
-- algorithm design
-- input validation
-- error handling
-- file input/output
-- formatted results
-- testing and verification
+### 4. Plan before coding
 
-Not every project will use every concept, but the solution should be appropriate to the engineering problem being solved.
+Understand your chosen project:
 
-## Engineering documentation
+- what the engineering problem is
+- what inputs the program needs
+- what outputs or results it should produce
+- what formulas or calculations are involved
+- what assumptions or limitations exist
+- how you will test your solution
 
-Students should document, where applicable:
+Use `src/main.cpp` as starter code, but you may substantially modify or replace it as needed.
 
-- formulas and calculations
-- units
-- assumptions
-- engineering standards or references
-- limitations
-- validation and reference values
+### 5. Development workflow
 
-Students should test realistic cases, boundary conditions, and invalid inputs where appropriate.
-
-## Development workflow
-
-1. Fork the repository.
-2. Clone the fork.
-3. Create a branch.
+1. Fork this repository to your GitHub account.
+2. Clone your fork to your computer.
+3. Create a branch for your work.
 4. Read [PROJECTS.md](PROJECTS.md).
-5. Choose a project or develop a qualifying P11 project.
+5. Choose your project or develop a qualifying P11 project.
 6. Plan the engineering calculations, inputs, outputs, and program structure.
 7. Develop the C++ program.
 8. Compile and test regularly.
 9. Commit changes with meaningful commit messages.
-10. Push the branch.
-11. Open a Pull Request.
-12. Create the required demo video.
+10. Push your branch to GitHub.
+11. Open a Pull Request to this repository.
+12. Create a maximum 3-minute demo video.
 13. Post the video to the class Google Chat space.
 
-## Starter code
+### 6. Engineering quality
 
-`src/main.cpp` is only starter code.
+As you develop, ensure:
 
-Students may substantially modify or replace it as necessary for the selected project.
+- functions are used appropriately to organize logic
+- the entire program is not left in `main()`
+- variable and function names are meaningful
+- input is validated and errors are handled
+- engineering formulas and assumptions are documented with units
+- calculations are tested against realistic and boundary cases
+- results are presented clearly and correctly
 
-## Video demonstration
+### 7. Video demonstration
 
-Create a maximum 3-minute video.
+Create a maximum 3-minute video demonstrating your project.
 
 Post the video to the class Google Chat space.
 
-The video should briefly demonstrate:
+Your video should briefly show:
 
 1. The engineering problem
 2. The completed program running
 3. Important inputs and outputs
 4. Important parts of the code
 5. How calculations were tested or verified
-6. Something the student learned, found difficult, or improved
+6. What you learned, found difficult, or improved
 
-Keep the video requirement practical and concise.
+Keep the video practical and concise.
 
-## Final submission checklist
+### 8. Pull Request
 
-Before submission, make sure:
+Your Pull Request should explain:
 
-- [ ] project is complete and working
-- [ ] program compiles
-- [ ] realistic test cases were used
-- [ ] appropriate boundary and invalid cases were tested
-- [ ] important calculations were verified
-- [ ] functions and modular structure are used appropriately
-- [ ] file I/O is implemented where required by the selected project
-- [ ] code is readable and organized
-- [ ] engineering formulas, assumptions, units, and limitations are documented where applicable
-- [ ] meaningful commit history exists
-- [ ] Pull Request explains the project
-- [ ] Pull Request explains testing
-- [ ] maximum 3-minute demo video posted to class Google Chat
+- what project was developed
+- what the program does
+- important engineering calculations and assumptions
+- important design decisions and program structure
+- how the program was tested
+- known limitations
 
 ## Repository files
 
-```text
-.
-├── LICENSE
-├── README.md
-├── PROJECTS.md
-├── CONTRIBUTING.md
-├── SUBMISSION.md
-└── src/
-    └── main.cpp
-```
+- `LICENSE`
+- `README.md`
+- `PROJECTS.md`
+- `CONTRIBUTING.md`
+- `SUBMISSION.md`
+- `src/main.cpp`
+
+## Final submission checklist
+
+Before submitting, verify:
+
+- [ ] Project is complete and working
+- [ ] Program compiles without errors
+- [ ] Realistic test cases were used and verified
+- [ ] Appropriate boundary and invalid cases were tested
+- [ ] Important calculations were verified
+- [ ] Functions and modular structure used appropriately
+- [ ] Code is readable and well organized
+- [ ] Engineering formulas, assumptions, units, and limitations documented
+- [ ] Meaningful commit history present
+- [ ] Pull Request explains the project clearly
+- [ ] Pull Request explains testing approach
+- [ ] Maximum 3-minute demo video posted to class Google Chat
 
 ## Need help?
 
 - Read [CONTRIBUTING.md](CONTRIBUTING.md) for the GitHub workflow
-- Read [PROJECTS.md](PROJECTS.md) for the available engineering projects
-- Read [SUBMISSION.md](SUBMISSION.md) for final submission requirements
-- Ask your instructor if you get stuck
+- Read [PROJECTS.md](PROJECTS.md) for project descriptions and requirements
+- Review [SUBMISSION.md](SUBMISSION.md) for final submission details
+- Ask your instructor if you are stuck
 
 Good luck with your semester-end engineering project!
