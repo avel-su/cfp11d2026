@@ -54,24 +54,26 @@ This is normal. Beginners make mistakes all the time.
 
 Once your program runs correctly, save your final code in your own GitHub copy.
 
-## Very simple GitHub guide
+## GitHub workflow for beginners
 
-If you are new to GitHub, here is the easiest way:
+If you are new to GitHub, follow the official GitHub guide:
 
-1. Go to this repository page.
-2. Click the Fork button.
-   - This makes your own copy of the project.
-3. In your copy, click Add file.
-4. Create a file like:
-   - `solution-T1.cpp`
-   - or `even-odd.cpp`
-5. Paste your working code into the file.
-6. Write a short commit message like:
-   - `Add even or odd program`
-7. Click Commit changes.
-8. Then open a Pull Request to send your work back to the class repository.
+**[GitHub Quickstart for writing on GitHub](https://docs.github.com/en/get-started/writing-on-github)**
 
-Important: You do not need to use Git commands in a terminal. You can do the whole process in the browser.
+This is the easiest way to submit your work:
+
+1. **Fork** this repository (click the Fork button)
+   - This makes your own copy of the project
+2. **Create a file** in your copy by clicking "Add file"
+   - Name it something like `solution-T1.cpp` or `even-odd.cpp`
+3. **Paste your working code** into the file
+4. **Write a commit message** like: `Add even or odd program`
+5. **Commit changes**
+6. **Open a Pull Request** to send your work back to the class repository
+
+You do not need to use Git commands in a terminal. You can do the whole process in the browser.
+
+The official GitHub documentation has screenshots and clear steps. Use it if you get stuck.
 
 ## What to submit
 
@@ -99,9 +101,10 @@ The goal is understanding, not perfection.
 
 If you are stuck:
 
-- read the example in [TASKS.md](TASKS.md)
-- ask your instructor
-- start with the easiest task
+- Read the example in [TASKS.md](TASKS.md)
+- Check the [GitHub Quickstart guide](https://docs.github.com/en/get-started/writing-on-github)
+- Ask your instructor
+- Start with the easiest task
 
 ## Files in this repository
 
