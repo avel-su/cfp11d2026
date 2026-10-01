@@ -1,124 +1,284 @@
-# Contributing to the CFP11 Class Project
+# Contributing to CFP11 2026 — C++ Engineering Project
 
-This repository is being used for a classroom exercise.
+This repository is used for the semester-end **C++ engineering project** for CFP11: Computer Fundamentals and Programming.
 
-The goal is to learn a simple development workflow:
+The goal is to develop a complete engineering program in C++ and use proper software-development workflow with GitHub.
 
-**change → test → commit → push → Pull Request**
+**workflow: plan → code → test → commit → push → Pull Request**
 
-You are not expected to already know GitHub. Learning the workflow is part of the exercise.
+Learning the GitHub workflow is part of the exercise.
 
-## Before you start
+## Before you start coding
 
 You should have:
 
 - a GitHub account
-- Git installed, or a GitHub-supported way to clone the repository
-- a C++ compiler
-- a C++ development environment
+- Git installed on your computer
+- a C++ compiler (g++, clang, or Visual C++)
+- a code editor or IDE
 
-## Basic workflow
+### 1. Learn GitHub basics
+
+Read the GitHub Learning guide:
+
+- https://learn.github.com/
+
+### 2. Understand your project
+
+Read [PROJECTS.md](PROJECTS.md).
+
+Choose one of the P1–P10 engineering projects, or develop a qualifying P11 project.
+
+No instructor approval is required for a proposed project.
+
+Understand:
+
+- The engineering problem
+- Required inputs and outputs
+- Key calculations and formulas
+- Engineering assumptions and constraints
+- What testing means for this project
+
+### 3. Plan your program structure
+
+Before coding, sketch out:
+
+- What data will you need? (consider structs or arrays)
+- What functions will you need?
+- What does the main flow look like?
+- Where do you need validation?
+- How will you organize the program?
+
+## Development workflow
 
 ### 1. Fork the repository
 
-Create your own copy of the classroom repository on GitHub.
+Click the **Fork** button to create your own copy on GitHub.
 
 ### 2. Clone your fork
 
-Download your fork to your computer.
+Download your fork to your computer:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/cfp11d2026.git
+cd cfp11d2026
+```
 
 ### 3. Create a branch
 
-Create a separate branch for your task.
+Create a branch for your project work:
 
-Example:
-
-```text
-maria-even-odd
+```bash
+git checkout -b my-project-name
 ```
 
-### 4. Make your change
+Example branch name: `beam-calculator` or `circuit-analyzer`
 
-Open:
+### 4. Develop your program
 
-```text
-src/main.cpp
-```
-
-Complete one task from `TASKS.md`.
+- Open `src/main.cpp`.
+- Write your C++ program to solve the engineering problem.
+- You may substantially modify or replace the starter code.
+- Compile regularly to catch errors early.
+- Test with realistic inputs and boundary cases.
 
 ### 5. Compile and test
 
-Make sure the program compiles.
+Compile your program:
 
-Run it with different inputs.
-
-Think about whether the output makes sense.
-
-### 6. Commit
-
-Create a commit that describes your change.
-
-Good example:
-
-```text
-Add even or odd check
+```bash
+g++ -o myprogram src/main.cpp
 ```
 
-Poor example:
+(Adjust the compiler and flags based on your setup.)
 
-```text
-stuff
+Test with:
+
+- Normal engineering scenarios
+- Boundary conditions (min/max valid values)
+- Invalid inputs (negative when positive expected, zero when non-zero required, etc.)
+- Verify calculations against hand calculations or reference values
+
+### 6. Commit meaningful progress
+
+Commit regularly, not just once at the end:
+
+```bash
+git add src/main.cpp
+git commit -m "Add input validation for beam properties"
 ```
 
-### 7. Push
+Good commit messages:
 
-Push your branch to your GitHub fork.
+- "Add structural analysis calculation"
+- "Implement file I/O for saving results"
+- "Add input validation"
+- "Test circuit analysis with realistic values"
+
+Poor commit messages:
+
+- "stuff"
+- "fixed"
+- "update"
+- "final"
+
+### 7. Push your branch
+
+Push your work to GitHub:
+
+```bash
+git push origin my-project-name
+```
 
 ### 8. Open a Pull Request
 
-Create a Pull Request from your branch to the original classroom repository.
+Go to your fork on GitHub.
 
-In the Pull Request description, write:
+Click "New Pull Request" and select your branch.
 
-```text
-What I changed:
-...
+In the Pull Request description, explain:
 
-How I tested it:
-...
+**Project:** [Name of the engineering project]
 
-What I learned:
-...
+**What I developed:**
+[Brief description of what the program does]
+
+**Engineering approach:**
+[Key calculations, formulas, assumptions, design decisions]
+
+**How I tested it:**
+[Test cases used, including realistic cases and boundary conditions]
+
+**Program structure:**
+[Brief overview of functions and organization]
+
+**Known limitations:**
+[Any edge cases or constraints]
+
+## Engineering quality expectations
+
+### Code organization
+
+- Write functions for logical blocks of code
+- Avoid putting the entire program into `main()`
+- Use meaningful function names (e.g., `calculateBeamStress()`, `validateInput()`)
+- Keep functions focused on single tasks
+
+### Documentation
+
+Include comments explaining:
+
+- What each function does
+- Complex calculations or formulas
+- Engineering assumptions
+- Unit conventions (meters, kN, MPa, etc.)
+- Validation criteria
+
+Example:
+
+```cpp
+// Calculate bending stress using flexure formula: sigma = M * c / I
+// where M = bending moment, c = distance to neutral axis, I = second moment
+double stress = bendingMoment * distanceToNA / momentOfInertia;
 ```
+
+### Variable names
+
+Use clear, descriptive names:
+
+```cpp
+// Good
+double beamLength;
+double materialYieldStrength;
+double safetyFactor;
+
+// Avoid
+double l;
+double ys;
+double sf;
+```
+
+### Input validation
+
+Validate all user input:
+
+```cpp
+if (beamLength <= 0) {
+    cerr << "Error: Beam length must be positive." << endl;
+    return 1;
+}
+```
+
+### Error handling
+
+Handle errors gracefully:
+
+- Check file I/O success
+- Provide meaningful error messages
+- Use sensible defaults when appropriate
+- Avoid crashing on invalid input
+
+### Testing
+
+Test your program with:
+
+- **Normal cases**: typical engineering values
+- **Boundary cases**: minimum and maximum valid values
+- **Invalid input**: negative when positive expected, zero when non-zero required, etc.
+- **Reference values**: verify calculations against hand calculations or known results
+
+Document your testing in the Pull Request description.
+
+### File I/O
+
+If your project requires file I/O:
+
+- Save and load data in a human-readable format
+- Include appropriate file error handling
+- Ensure results can be verified later
 
 ## Pull Request checklist
 
-Before submitting:
+Before submitting your Pull Request:
 
-* [ ] My program compiles.
-* [ ] I tested my change.
-* [ ] I changed only what was necessary.
-* [ ] I can explain the code I added.
-* [ ] My commit message describes the change.
-* [ ] My Pull Request explains what I changed.
-* [ ] My Pull Request explains how I tested it.
+- [ ] Program compiles without errors
+- [ ] Program runs and produces correct output
+- [ ] Realistic test cases have been performed
+- [ ] Boundary and invalid cases have been tested
+- [ ] Important calculations have been verified
+- [ ] Functions are used appropriately
+- [ ] Code is readable and well-organized
+- [ ] Engineering formulas and assumptions are documented
+- [ ] Input validation is implemented
+- [ ] Error messages are clear and helpful
+- [ ] Meaningful commit history is present
+- [ ] Pull Request explains the project and testing
 
-## Keep the code simple
+## Keep the code focused
 
-This is an introductory programming exercise.
+This is an engineering project, not a software product.
 
-Prefer code that another first-year student can easily read.
+Focus on:
+
+- Solving the engineering problem correctly
+- Using appropriate C++ concepts
+- Clear, readable code
+- Proper testing and validation
 
 Do not add:
 
-* external libraries
-* frameworks
-* classes
-* complex data structures
-* advanced C++ features
-* unnecessary files
+- external libraries (unless instructor approves)
+- graphics or complex visualization
+- databases
+- web frameworks
+- unnecessary complexity
 
-unless the instructor specifically asks for them.
+A well-structured, thoroughly-tested engineering program is better than an elaborate but incomplete system.
 
-A small working change is better than a complicated unfinished change.
+## Questions or issues?
+
+- Review the project description in [PROJECTS.md](PROJECTS.md)
+- Check [SUBMISSION.md](SUBMISSION.md) for submission requirements
+- Ask your instructor for help
+
+Good luck with your engineering project!
