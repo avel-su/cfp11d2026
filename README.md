@@ -1,4 +1,4 @@
-# CFP11d2026 — C++ Final Project
+# CFP11 2026 — C++ Final Project
 
 This repository contains the final project assignment for CFP11 using C++.
 
