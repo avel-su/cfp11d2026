@@ -1,4 +1,4 @@
-# CFP11 2026 Final Project
+# CFP11 2026 — C++ Engineering Project
 
 ## Getting started
 
@@ -45,25 +45,44 @@ Understand your chosen project:
 - what assumptions or limitations exist
 - how you will test your solution
 
-Use `src/main.cpp` as starter code, but you may substantially modify or replace it as needed.
+### 5. Create your student folder
 
-### 5. Development workflow
+Create a folder with your **last name** for your project files:
+
+```bash
+mkdir LastName
+cd LastName
+```
+
+Place all your source code files (.cpp, .h) in this folder.
+
+Example folder structure:
+
+```text
+Smith/
+├── main.cpp
+├── calculations.cpp
+├── calculations.h
+└── demo.mp4
+```
+
+### 6. Development workflow
 
 1. Fork this repository to your GitHub account.
 2. Clone your fork to your computer.
 3. Create a branch for your work.
 4. Read [PROJECTS.md](PROJECTS.md).
 5. Choose your project or develop a qualifying P11 project.
-6. Plan the engineering calculations, inputs, outputs, and program structure.
-7. Develop the C++ program.
-8. Compile and test regularly.
-9. Commit changes with meaningful commit messages.
-10. Push your branch to GitHub.
-11. Open a Pull Request to this repository.
-12. Create a maximum 3-minute demo video.
-13. Post the video to the class Google Chat space.
+6. Create a folder with your last name.
+7. Plan the engineering calculations, inputs, outputs, and program structure.
+8. Develop the C++ program in your folder.
+9. Compile and test regularly.
+10. Commit changes with meaningful commit messages.
+11. Push your branch to GitHub.
+12. Open a Pull Request to this repository.
+13. Create a maximum 3-minute demo video and place it in your folder.
 
-### 6. Engineering quality
+### 7. Engineering quality
 
 As you develop, ensure:
 
@@ -75,11 +94,11 @@ As you develop, ensure:
 - calculations are tested against realistic and boundary cases
 - results are presented clearly and correctly
 
-### 7. Video demonstration
+### 8. Video demonstration
 
 Create a maximum 3-minute video demonstrating your project.
 
-Post the video to the class Google Chat space.
+**Place the video file in your student folder** (e.g., `Smith/demo.mp4`).
 
 Your video should briefly show:
 
@@ -92,7 +111,7 @@ Your video should briefly show:
 
 Keep the video practical and concise.
 
-### 8. Pull Request
+### 9. Pull Request
 
 Your Pull Request should explain:
 
@@ -111,6 +130,7 @@ Your Pull Request should explain:
 - `CONTRIBUTING.md`
 - `SUBMISSION.md`
 - `src/main.cpp`
+- `YourLastName/` (your student folder with project files and video)
 
 ## Final submission checklist
 
@@ -125,9 +145,11 @@ Before submitting, verify:
 - [ ] Code is readable and well organized
 - [ ] Engineering formulas, assumptions, units, and limitations documented
 - [ ] Meaningful commit history present
+- [ ] Student folder created with last name as folder name
+- [ ] All source code files in student folder
+- [ ] Maximum 3-minute demo video in student folder
 - [ ] Pull Request explains the project clearly
 - [ ] Pull Request explains testing approach
-- [ ] Maximum 3-minute demo video posted to class Google Chat
 
 ## Need help?
 

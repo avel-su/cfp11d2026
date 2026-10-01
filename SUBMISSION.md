@@ -6,6 +6,20 @@ You have developed a complete C++ engineering project based on one of the topics
 
 The project is your final submission for CFP11: Computer Fundamentals and Programming.
 
+## Repository structure
+
+Your submission should follow this structure:
+
+```
+YourLastName/
+├── main.cpp
+├── calculations.cpp (if needed)
+├── calculations.h (if needed)
+└── demo.mp4
+```
+
+All your source code files and demo video should be in a folder named with your **last name**.
+
 ## GitHub submission
 
 Your completed project must be submitted through GitHub:
@@ -14,7 +28,8 @@ Your completed project must be submitted through GitHub:
 
 Your fork should contain:
 
-- **src/main.cpp** (and any other .cpp files needed)
+- **YourLastName/** folder with all .cpp and .h files
+- **YourLastName/demo.mp4** (or video file with your chosen format)
 - **Meaningful commit history** showing development progress
 
 ### Pull Request
@@ -30,6 +45,7 @@ The Pull Request description must explain:
 5. **Design decisions** — why you organized the code the way you did
 6. **Testing** — how you tested the program (test cases, verification methods)
 7. **Known limitations** — any edge cases or constraints
+8. **File location** — all files are in the `YourLastName/` folder
 
 ## Testing requirements
 
@@ -63,7 +79,7 @@ Test case 3 (invalid): Beam length = -5m
 
 Create a **maximum 3-minute video** demonstrating your project.
 
-Post the video to the class Google Chat space.
+**Save the video in your student folder** with your submission (e.g., `Smith/demo.mp4`).
 
 The video should:
 
@@ -118,18 +134,15 @@ Before submitting your Pull Request, confirm:
 
 - [ ] Fork of the repository is created
 - [ ] Branch is created for the project
+- [ ] Student folder created with last name
+- [ ] All source code (.cpp, .h files) in student folder
+- [ ] Demo video in student folder
 - [ ] Code is committed with meaningful messages
 - [ ] Branch is pushed to GitHub
 - [ ] Pull Request is opened
 - [ ] Pull Request describes the project clearly
 - [ ] Pull Request explains testing approach
-
-### Final submission
-
-- [ ] Maximum 3-minute demo video created
-- [ ] Video posted to class Google Chat space
-- [ ] Video demonstrates the engineering problem and solution
-- [ ] Video shows key code and verification
+- [ ] Pull Request mentions file location
 
 ## Important notes
 

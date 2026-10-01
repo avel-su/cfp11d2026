@@ -74,20 +74,30 @@ git checkout -b my-project-name
 
 Example branch name: `beam-calculator` or `circuit-analyzer`
 
-### 4. Develop your program
+### 4. Create your student folder
 
-- Open `src/main.cpp`.
+Create a folder with your **last name** for your project files:
+
+```bash
+mkdir LastName
+cd LastName
+```
+
+All your C++ source code files (.cpp, .h) should go in this folder.
+
+### 5. Develop your program
+
 - Write your C++ program to solve the engineering problem.
-- You may substantially modify or replace the starter code.
+- Place all source code files in your student folder.
 - Compile regularly to catch errors early.
 - Test with realistic inputs and boundary cases.
 
-### 5. Compile and test
+### 6. Compile and test
 
-Compile your program:
+Compile your program (from your student folder):
 
 ```bash
-g++ -o myprogram src/main.cpp
+g++ -o myprogram main.cpp
 ```
 
 (Adjust the compiler and flags based on your setup.)
@@ -99,12 +109,27 @@ Test with:
 - Invalid inputs (negative when positive expected, zero when non-zero required, etc.)
 - Verify calculations against hand calculations or reference values
 
-### 6. Commit meaningful progress
+### 7. Create your demo video
+
+Create a maximum 3-minute video demonstrating your project.
+
+**Save the video file in your student folder** (e.g., `LastName/demo.mp4`).
+
+Your video should show:
+
+1. The engineering problem
+2. The completed program running
+3. Important inputs and outputs
+4. Important parts of the code
+5. How calculations were tested or verified
+6. What you learned or found challenging
+
+### 8. Commit meaningful progress
 
 Commit regularly, not just once at the end:
 
 ```bash
-git add src/main.cpp
+git add LastName/
 git commit -m "Add input validation for beam properties"
 ```
 
@@ -122,7 +147,7 @@ Poor commit messages:
 - "update"
 - "final"
 
-### 7. Push your branch
+### 9. Push your branch
 
 Push your work to GitHub:
 
@@ -130,7 +155,7 @@ Push your work to GitHub:
 git push origin my-project-name
 ```
 
-### 8. Open a Pull Request
+### 10. Open a Pull Request
 
 Go to your fork on GitHub.
 
@@ -154,6 +179,9 @@ In the Pull Request description, explain:
 
 **Known limitations:**
 [Any edge cases or constraints]
+
+**Location of files:**
+All source code and video are in the `LastName/` folder.
 
 ## Engineering quality expectations
 
@@ -242,6 +270,9 @@ Before submitting your Pull Request:
 - [ ] Engineering formulas and assumptions are documented
 - [ ] Input validation is implemented
 - [ ] Error messages are clear and helpful
+- [ ] Student folder created with last name
+- [ ] All source code in student folder
+- [ ] Demo video in student folder
 - [ ] Meaningful commit history is present
 - [ ] Pull Request explains the project and testing
 
