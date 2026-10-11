@@ -1,0 +1,42 @@
+# Pipe Flow & Pressure Drop Calculator — Test Report
+
+## 1. Purpose
+
+This report documents tests performed on the Pipe Flow & Pressure Drop Calculator to verify that its calculations and input validation work as intended.
+
+## 2. Test Environment
+
+* Programming language: C++
+* IDE: Code::Blocks
+* Compiler: GNU GCC
+* Interface: Console application
+
+## 3. Test Cases
+
+| Test                  | Input or action                                                                     | Expected result                                  | Status |
+| --------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------ | ------ |
+| 1. Normal calculation | Q = 0.001 m³/s; D = 0.05 m; L = 20 m; ρ = 998 kg/m³; μ = 0.001 Pa·s; ε = 0.000045 m | Valid results; turbulent flow                    | PASS   |
+| 2. Zero flow rate     | Enter Q = 0                                                                         | Reject input and request a positive value        | PASS   |
+| 3. Negative diameter  | Enter D = -0.05 m                                                                   | Reject input and request a positive value        | PASS   |
+| 4. Negative roughness | Enter ε = -0.000045 m                                                               | Reject input and request a nonnegative value     | PASS   |
+| 5. Non-numeric input  | Enter `hello` at a measurement prompt                                               | Display an error and request numeric input       | PASS   |
+| 6. Repeat calculation | Complete a calculation and choose option 1 again                                    | Return to the menu and allow another calculation | PASS   |
+| 7. Exit               | Choose menu option 2                                                                | Display the exit message and terminate normally  | PASS   |
+
+## 4. Sample Calculation Results
+
+Using the normal input values:
+
+* Pipe area: approximately 0.001963 m²
+* Average velocity: approximately 0.509296 m/s
+* Reynolds number: approximately 25413.861313
+* Flow regime: Turbulent
+* Darcy friction factor: approximately 0.026187
+* Pressure drop: approximately 1355.760712 Pa
+* Head loss: approximately 0.138479 m
+
+## 5. Conclusion
+
+The program compiled and ran successfully in Code::Blocks. The normal test produced reasonable results, and the invalid-input tests confirmed that the program rejects the tested invalid values. The menu also allowed repeated calculations and normal program termination.
+
+Additional boundary tests should be performed to verify behavior near flow-regime transition values and with extremely large or small inputs.

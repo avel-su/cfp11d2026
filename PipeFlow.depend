@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1791617703 source:c:\users\user\onedrive\documents\c++\pipeflow\main.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<limits>
+	<string>
+
